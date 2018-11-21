@@ -1,0 +1,336 @@
+body{
+    font-family: 'Playfair Display', serif;
+    margin:0;
+    padding: 0;
+    z-index: 0;
+}
+*{
+    font-family:"Playfair Display", serif;
+    margin:0;
+    padding: 0;
+}
+/*.sidebar{
+    height:90%;
+    width:15%;
+    position:absolute;
+    left:0;
+    background-color:black;
+    padding-top: 60px;
+    z-index:1;
+    transition: all 10ms linear;
+}
+.sidebar .logo{
+    color:white;
+    height:50px;
+    width:50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    border:2px solid white;
+    border-radius: 100%;
+     font-size:small;
+    margin-left:70px;
+
+}
+.sidebar a:not(.logo) {
+    padding: 8px 8px 8px 0px;
+    padding-left: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818170;
+    display: block;
+    text-align: center;
+    transition: 0.3s;
+    border: none;
+}
+.sidebar a:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.closebtn{
+    position:absolute;
+    top:0;
+    left:150px;
+}
+.menu i {
+    padding-left:30px;
+    padding-top: 10px;
+
+    color:red;
+}
+*/
+.section{
+    height:100vh;
+    position: relative;
+}
+.section-1{
+    background: url("https://kevinlehtla.ee/wp-content/uploads/2018/11/animal-cute-grass-145952-1.png");
+    background-size: cover;
+    background-position: bottom center;
+}
+.section-1 .content{
+    max-width: 600px;
+    padding: 60px 100px;
+    bottom: 20vh;
+    position: absolute;
+}
+
+.section-1 .content h1{
+    color:#ead31f;
+    font-size:5em;
+    font-weight: bold;
+    margin: 0px 0px 0px -3px;
+    font-family: 'Playfair Display', serif;
+}
+.content p{
+    font-size: 20px;
+    color:white;
+    margin-bottom:20px;
+}
+.section-2 .content{
+    max-width: 800px;
+    margin:auto;
+    padding-top: 4em;
+}
+.headline{
+    font-size: 4em;
+  color:white;
+    position: relative;
+
+}
+.headline :before{
+
+    content: '';
+    width:150px;
+    background:yellow;
+    height: 3px;
+    left:-20%;
+    top: 50px;
+    position: absolute;
+}
+#scrolling {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 600px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+li {
+    float: left;
+    width: 600px;
+    height: 400px;
+    color: white;
+    margin: 0px 50px;
+    opacity: 0.2;
+    transition: opacity 0.3s ease;
+}
+#scrolling .itemslide-active{
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+.card-1{
+
+
+}
+.box{
+    position: relative;
+}
+.box-left{
+    float: left;
+    width: 40%;
+    top: 10%;
+    height: 80%;
+    background-size: cover;
+    box-shadow: inset 0px 0px 0px 200px #00000040;
+}
+.card-1 .box-left{
+    background-image: url('https://images.pexels.com/photos/148182/pexels-photo-148182.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+// Author Flicker from Pexels
+}
+.card-2 .box-left{
+    background-image: url('https://images.pexels.com/photos/146290/pexels-photo-146290.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+background-position:center;
+// Author Flicker from Pexels
+}
+.card-3 .box-left{
+    background-image: url('https://images.pexels.com/photos/146069/pexels-photo-146069.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-position: center;
+// Author Flicker from Pexels
+}
+.card-1 {
+    position: relative;
+    left:27%;
+    opacity: 1;
+}
+
+.card-2{
+    position:relative;
+    left:27%;
+    opacity: 1;
+}
+.card-3{
+    position:relative;
+    left:27%;
+    opacity: 1;
+
+}
+.cta a{
+    text-decoration: none;
+    color:#f7f7f7;
+
+}
+.carousel{
+    margin-top:7%;
+}
+.box-right {
+    position: absolute;
+    left:240px;
+    text-align: left;
+    width: calc(60% - 50px);
+    height: 100%;
+    padding: 40px 25px 0px 25px;
+    background: #1b1b1b;
+}
+p {
+    margin-bottom: 60px;
+}
+h3{
+    color:yellow;
+}
+a {
+    color: white;
+    border: solid 2px white;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+a :hover{
+    color: black;
+    background: white;
+    transition: all 0.2s ease;
+}
+
+.section-3{
+    margin-top: 10%;
+    height:25vh;
+    position: relative;
+    background: url("https://images.pexels.com/photos/851940/pexels-photo-851940.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position:bottom center;
+    backdrop-filter: blur(10);
+
+}
+.quotes{
+   padding-top:4%;
+    text-align: center;
+opacity:2;
+    font-family:"Playfair Display", serif;
+    font-size: 20px;
+    font-weight:normal;
+}
+.quotes h6{
+    text-align: center;
+    font-size: 25px;
+    color:white;
+}
+.quotes p{
+    font-size: 18px;
+}
+.btn{
+    font-size: 20px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 0px;
+    background: black;
+    position:relative;
+   width:100%;
+}
+@media screen and (max-width: 760px)
+{  .section-1 .content {
+    margin-left: -20%;
+    }
+    .section-1  h1{
+     font-size: 15px;
+    }
+    .section-1 p{
+        font-size: 18px;
+    }
+    u{
+        display: none;
+    }
+    .section-2 p{
+        font-size: 18px;
+        padding:5%;
+    }
+    .section-2 .btn {
+        margin-left: 5%;
+    }
+    .card-1 {
+        left: -70%;
+
+    }
+
+    .card-2{
+        left:-70%;
+
+    }
+    .card-3{
+        left:-75%;
+
+    }
+    .box-left{
+        display:none;
+
+    }
+    .section-3{
+        margin-top:5%;
+    }
+    .footer{
+        position:absolute;
+     margin-top: 470px;
+
+    }
+    body{
+        margin: 0;
+        padding: 0;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries*/
